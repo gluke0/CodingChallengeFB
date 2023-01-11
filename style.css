@@ -1,0 +1,68 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    color: white
+}
+
+.container{
+    background: rgba(0,0,0,0.5);
+    width: 65%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 4% 3%;
+}
+
+/* logo and claim */
+header{
+    text-align: center;
+    color: rgb(0,221,0);
+}
+
+.logo{
+    width: 320px;
+}
+
+header > h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* menu */
+nav{
+    text-align: center;
+    background-color: rgb(0,221,0);
+    padding: 0.5%
+}
+
+/* scooters */
+.scooter{
+    display: inline-block;
+    margin-bottom: 0%;
+}
+
+.address:before{
+    content: "\21A6"
+}
+
+
+.chargebox{
+    border-radius: 10px;
+    height: 33px;
+    margin-top: 1px;
+}
+
+.cborange{
+    background-color: rgb(245,180,83);
+    width: 40%;
+}
+
+.cbgreen{
+    background-color: rgba(0,221,0);
+    width: 56%;
+}
+  
+.cbred{
+    background-color: rgba(190,65,65);
+    width: 10%;
+}
